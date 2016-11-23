@@ -54,11 +54,17 @@
             <a href="#">Players</a>
             <a href="#">Games</a>
         </div> -->
-      </nav>
+      <!-- </nav> -->
       <div class="jumbotron">
-          <h1>TIY Sports</h1>
-          <p> &hearts; For the student of The Iron Yard</p>
-          <img src="assets/images/sports.jpg" class="img-circle" alt="Sports Picture" width="136" height="136">
+        <div class="row">
+          <div class="col-xs-6 col-md-9">
+            <h1>TIY Sports</h1>
+            <h4 class="h4-responsive">&hearts; For the students of The Iron Yard</h4>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <img src="assets/images/sports.jpg" class="img-circle" alt="Sports Picture" width="136" height="136">
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-xs-6 col-md-3">
@@ -94,13 +100,16 @@
           </div>
         </div>
       </div>
-      <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4>We've added some new features in version 2.0!</h4>
+      <div class="alert alert-warning" role="alert" class=>
+        <p class="lead">We've added some brand new features in version 2.0!</p>
+        <a href="#">Learn More</a>
       </div>
-      <div class="well">Please <Strong>log in</Strong> to edit</div>
+      <div class="well"><h5><span class="glyphicon glyphicon-user"></span> Please <strong>log in</strong> to edit</h5></div>
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <div class="panel-title"><h4>
+            <span class="fa fa-chevron-circle-right"></span> Teams<span class="badge">42</span></h4>
+          </div>
         </div>
         <div class="panel-body">
           <h4>Tampa Dart Dynamos</h4>
@@ -114,15 +123,16 @@
           <h4>Orlando Golf Gang</h4>
           <p>Sesame snaps wafer oat cake macaroon lollipop brownie candy. Muffin topping powder cupcake apple pie jujubes. Powder cupcake pastry jelly beans tiramisu liquorice chupa chups topping.</p>
         </div>
-        <div class="btn-group btn-group-justified" role="toolbar" aria-label="...">
-          <div class="btn-group" role="group" aria-label="..."><<</div>
-          <div class="btn-group" role="group" aria-label="...">1</div>
-          <div class="btn-group" role="group" aria-label="...">>></div>
+          <nav aria-label="..."><ul class="pagination pagination-lg">...</ul></nav>
+          <nav aria-label="..."><ul class="pagination">...</ul></nav>
+          <nav aria-label="..."><ul class="pagination pagination-sm">...</ul></nav>
         </div>
-      </div>
       <div class="panel panel-primary">
         <!-- Default panel contents -->
-        <div class="panel-heading">Games</div>
+        <div class="panel-heading">
+          <h4> <span class="glyphicon glyphicon-check"></span> Games
+          </h4>
+      </div>
 
         <!-- Table -->
         <table class="table">
